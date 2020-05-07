@@ -1,0 +1,10 @@
+type Student {
+  id: ID! @id
+
+  photo: ImageFile
+}
+
+type ImageFile {
+  id: ID! @id
+  url: String!
+}
